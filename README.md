@@ -11,6 +11,10 @@
 https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
 https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
 
+## Link to Code (notebook)
+If facing Github rendering issues use:
+https://nbviewer.org/github/AmritK10/Image_Captioning/blob/master/image_captioning.ipynb
+
 ## Model
 <b>ResNet50</b> was used as an image encoder to encode the images which were then input in the model.<br>
 <b>Keras embedding layer</b> was used to generate word embeddings on the captions which were encoded earlier.<br>
@@ -34,5 +38,5 @@ to generate the next word.<br>
 <img width="809" alt="Screen Shot 2019-09-01 at 11 14 10 PM" src="https://user-images.githubusercontent.com/31596604/64080123-43aa9600-cd0e-11e9-8b5f-f3bb414d8b58.png">
 
 ### Average Bleu Score on Test Set
-<b>Greedy Search:</b> 0.4623 <br>
-<b>Beam Search with k=3:</b> 0.4836
+<b>Greedy Search:</b> 0.4776 <br>
+<b>Beam Search with k=3:</b> 0.4930
